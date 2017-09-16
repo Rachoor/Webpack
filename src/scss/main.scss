@@ -1,0 +1,15 @@
+@import "variables";
+
+#main {
+  background-color: $primary;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
+
+#minor {
+  background-color: $secondary;
+  border: 1px solid black;
+  color: white;
+  padding: 5px;
+}
