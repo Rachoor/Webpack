@@ -1,13 +1,17 @@
-var path = require('path');
-var webpack = require('webpack');
+const path = require('path');
+const webpack = require('webpack');
 
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CleanWebpackPlugin = require('clean-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
-var extractPlugin = new ExtractTextPlugin({
+const extractPlugin = new ExtractTextPlugin({
    filename: 'main.css'
 });
+
+const config = {
+    
+}
 
 module.exports = {
     entry: './src/js/app.js',
